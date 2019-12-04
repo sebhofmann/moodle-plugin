@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RESPONSE>
+<MULTIPLE>
+<SINGLE>
+<KEY name="id"><VALUE>14</VALUE>
+</KEY>
+<KEY name="shortname"><VALUE>Testkurs OER Webservice</VALUE>
+</KEY>
+<KEY name="fullname"><VALUE>Testkurs OER Webservice</VALUE>
+</KEY>
+<KEY name="displayname"><VALUE>Testkurs OER Webservice</VALUE>
+</KEY>
+<KEY name="enrolledusercount"><VALUE>1</VALUE>
+</KEY>
+<KEY name="idnumber"><VALUE></VALUE>
+</KEY>
+<KEY name="visible"><VALUE>1</VALUE>
+</KEY>
+<KEY name="summary"><VALUE></VALUE>
+</KEY>
+<KEY name="summaryformat"><VALUE>1</VALUE>
+</KEY>
+<KEY name="format"><VALUE>topics</VALUE>
+</KEY>
+<KEY name="showgrades"><VALUE>1</VALUE>
+</KEY>
+<KEY name="lang"><VALUE></VALUE>
+</KEY>
+<KEY name="enablecompletion"><VALUE>1</VALUE>
+</KEY>
+<KEY name="completionhascriteria"><VALUE>0</VALUE>
+</KEY>
+<KEY name="completionusertracked"><VALUE>0</VALUE>
+</KEY>
+<KEY name="category"><VALUE>2</VALUE>
+</KEY>
+<KEY name="progress"><VALUE null="null"/>
+</KEY>
+<KEY name="completed"><VALUE null="null"/>
+</KEY>
+<KEY name="startdate"><VALUE>1568325600</VALUE>
+</KEY>
+<KEY name="enddate"><VALUE>0</VALUE>
+</KEY>
+<KEY name="marker"><VALUE>0</VALUE>
+</KEY>
+<KEY name="lastaccess"><VALUE null="null"/>
+</KEY>
+<KEY name="isfavourite"><VALUE>0</VALUE>
+</KEY>
+<KEY name="hidden"><VALUE>0</VALUE>
+</KEY>
+<KEY name="overviewfiles"><MULTIPLE>
+</MULTIPLE>
+</KEY>
+</SINGLE>
+</MULTIPLE>
+</RESPONSE>

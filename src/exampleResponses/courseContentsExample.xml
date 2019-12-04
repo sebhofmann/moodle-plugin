@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESPONSE>
+  <MULTIPLE>
+    <SINGLE>
+      <KEY name="id"><VALUE>47</VALUE>
+      </KEY>
+      <KEY name="name"><VALUE>Informationen zum Template "Großveranstaltung"</VALUE>
+      </KEY>
+      <KEY name="visible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="summary"><VALUE />
+      </KEY>
+      <KEY name="summaryformat"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="section"><VALUE>0</VALUE>
+      </KEY>
+      <KEY name="hiddenbynumsections"><VALUE>0</VALUE>
+      </KEY>
+      <KEY name="uservisible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="availabilityinfo"><VALUE null="null" />
+      </KEY>
+      <KEY name="modules"><MULTIPLE>
+        <SINGLE>
+          <KEY name="id"><VALUE>136</VALUE>
+          </KEY>
+          <KEY name="url"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/mod/forum/view.php?id=136</VALUE>
+          </KEY>
+          <KEY name="name"><VALUE>Announcements</VALUE>
+          </KEY>
+          <KEY name="instance"><VALUE>16</VALUE>
+          </KEY>
+          <KEY name="description"><VALUE null="null" />
+          </KEY>
+          <KEY name="visible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="uservisible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="availabilityinfo"><VALUE null="null" />
+          </KEY>
+          <KEY name="visibleoncoursepage"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="modicon"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/forum/1574233112/icon</VALUE>
+          </KEY>
+          <KEY name="modname"><VALUE>forum</VALUE>
+          </KEY>
+          <KEY name="modplural"><VALUE>Foren</VALUE>
+          </KEY>
+          <KEY name="availability"><VALUE null="null" />
+          </KEY>
+          <KEY name="indent"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="onclick"><VALUE />
+          </KEY>
+          <KEY name="afterlink"><VALUE null="null" />
+          </KEY>
+          <KEY name="customdata"><VALUE>""</VALUE>
+          </KEY>
+          <KEY name="completion"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="completiondata"><SINGLE>
+            <KEY name="state"><VALUE null="null" />
+            </KEY>
+            <KEY name="timecompleted"><VALUE null="null" />
+            </KEY>
+            <KEY name="overrideby"><VALUE null="null" />
+            </KEY>
+            <KEY name="valueused"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+          <KEY name="contents"><MULTIPLE>
+          </MULTIPLE>
+          </KEY>
+          <KEY name="contentsinfo"><SINGLE>
+            <KEY name="filescount"><VALUE null="null" />
+            </KEY>
+            <KEY name="filessize"><VALUE null="null" />
+            </KEY>
+            <KEY name="lastmodified"><VALUE null="null" />
+            </KEY>
+            <KEY name="mimetypes"><MULTIPLE>
+            </MULTIPLE>
+            </KEY>
+            <KEY name="repositorytype"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+        </SINGLE>
+        <SINGLE>
+          <KEY name="id"><VALUE>137</VALUE>
+          </KEY>
+          <KEY name="url"><VALUE null="null" />
+          </KEY>
+          <KEY name="name"><VALUE>
+
+            Mit diesem Template bieten wir Ihnen einen
+            M...</VALUE>
+          </KEY>
+          <KEY name="instance"><VALUE>10</VALUE>
+          </KEY>
+          <KEY name="description"><VALUE>&lt;div class="no-overflow"&gt;&lt;h3&gt;&lt;img src="https://moodletest.zim.uni-due.de/moodle_37_test/pluginfile.php/379/mod_label/intro/LEISTE_auslaufend_NEU_2.jpg" height="93" width="523"&gt;&lt;/h3&gt;
+
+            &lt;p&gt;&lt;strong&gt;&lt;/strong&gt;Mit diesem Template bieten wir Ihnen einen
+            &lt;b&gt;Musterkurs &lt;/b&gt;an, der von Ihnen an Ihr individuelles Lehr-/Lernszenario
+            angepasst werden kann. &lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;h4&gt;Veranstaltungsformat "Großveranstaltung":&lt;/h4&gt;&lt;ul&gt;&lt;li&gt;große Teilnehmerzahl (&amp;gt; 150 TN),&lt;/li&gt;&lt;li&gt;Frontalunterrichtssituation notwendig,&lt;/li&gt;&lt;li&gt;in seltenen Fällen Gruppenarbeit notwendig,&lt;/li&gt;&lt;li&gt;kann durch kommunikative (synchrone/asynchrone) Lehrszenarien unterstützt werden,&lt;/li&gt;&lt;li&gt;über Moodle überwieged Unterstützung von organisatorischen Aspekten&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;</VALUE>
+          </KEY>
+          <KEY name="visible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="uservisible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="availabilityinfo"><VALUE null="null" />
+          </KEY>
+          <KEY name="visibleoncoursepage"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="modicon"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/label/1574233112/icon</VALUE>
+          </KEY>
+          <KEY name="modname"><VALUE>label</VALUE>
+          </KEY>
+          <KEY name="modplural"><VALUE>Textfelder</VALUE>
+          </KEY>
+          <KEY name="availability"><VALUE null="null" />
+          </KEY>
+          <KEY name="indent"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="onclick"><VALUE />
+          </KEY>
+          <KEY name="afterlink"><VALUE null="null" />
+          </KEY>
+          <KEY name="customdata"><VALUE>""</VALUE>
+          </KEY>
+          <KEY name="completion"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="completiondata"><SINGLE>
+            <KEY name="state"><VALUE null="null" />
+            </KEY>
+            <KEY name="timecompleted"><VALUE null="null" />
+            </KEY>
+            <KEY name="overrideby"><VALUE null="null" />
+            </KEY>
+            <KEY name="valueused"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+          <KEY name="contents"><MULTIPLE>
+          </MULTIPLE>
+          </KEY>
+          <KEY name="contentsinfo"><SINGLE>
+            <KEY name="filescount"><VALUE null="null" />
+            </KEY>
+            <KEY name="filessize"><VALUE null="null" />
+            </KEY>
+            <KEY name="lastmodified"><VALUE null="null" />
+            </KEY>
+            <KEY name="mimetypes"><MULTIPLE>
+            </MULTIPLE>
+            </KEY>
+            <KEY name="repositorytype"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+        </SINGLE>
+      </MULTIPLE>
+      </KEY>
+    </SINGLE>
+    <SINGLE>
+      <KEY name="id"><VALUE>48</VALUE>
+      </KEY>
+      <KEY name="name"><VALUE>Präsenz-Termin 1: Inhalt I und Organisation I</VALUE>
+      </KEY>
+      <KEY name="visible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="summary"><VALUE />
+      </KEY>
+      <KEY name="summaryformat"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="section"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="hiddenbynumsections"><VALUE>0</VALUE>
+      </KEY>
+      <KEY name="uservisible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="availabilityinfo"><VALUE null="null" />
+      </KEY>
+      <KEY name="modules"><MULTIPLE>
+        <SINGLE>
+          <KEY name="id"><VALUE>139</VALUE>
+          </KEY>
+          <KEY name="url"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/mod/resource/view.php?id=139</VALUE>
+          </KEY>
+          <KEY name="name"><VALUE>Vorlesungsskript I (automatisch angezeigt)</VALUE>
+          </KEY>
+          <KEY name="instance"><VALUE>16</VALUE>
+          </KEY>
+          <KEY name="description"><VALUE null="null" />
+          </KEY>
+          <KEY name="visible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="uservisible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="availabilityinfo"><VALUE null="null" />
+          </KEY>
+          <KEY name="visibleoncoursepage"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="modicon"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/core/1574233112/f/pdf-24</VALUE>
+          </KEY>
+          <KEY name="modname"><VALUE>resource</VALUE>
+          </KEY>
+          <KEY name="modplural"><VALUE>Dateien</VALUE>
+          </KEY>
+          <KEY name="availability"><VALUE null="null" />
+          </KEY>
+          <KEY name="indent"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="onclick"><VALUE />
+          </KEY>
+          <KEY name="afterlink"><VALUE null="null" />
+          </KEY>
+          <KEY name="customdata"><VALUE>"a:2:{s:12:\"printheading\";i:0;s:10:\"printintro\";i:1;}"</VALUE>
+          </KEY>
+          <KEY name="completion"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="completiondata"><SINGLE>
+            <KEY name="state"><VALUE null="null" />
+            </KEY>
+            <KEY name="timecompleted"><VALUE null="null" />
+            </KEY>
+            <KEY name="overrideby"><VALUE null="null" />
+            </KEY>
+            <KEY name="valueused"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+          <KEY name="contents"><MULTIPLE>
+            <SINGLE>
+              <KEY name="type"><VALUE>file</VALUE>
+              </KEY>
+              <KEY name="filename"><VALUE>Vorlesungsskript 1.pdf</VALUE>
+              </KEY>
+              <KEY name="filepath"><VALUE>/</VALUE>
+              </KEY>
+              <KEY name="filesize"><VALUE>12097</VALUE>
+              </KEY>
+              <KEY name="fileurl"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/webservice/pluginfile.php/381/mod_resource/content/1/Vorlesungsskript%201.pdf?forcedownload=1</VALUE>
+              </KEY>
+              <KEY name="content"><VALUE null="null" />
+              </KEY>
+              <KEY name="timecreated"><VALUE>1345119510</VALUE>
+              </KEY>
+              <KEY name="timemodified"><VALUE>1345119510</VALUE>
+              </KEY>
+              <KEY name="sortorder"><VALUE>1</VALUE>
+              </KEY>
+              <KEY name="mimetype"><VALUE>application/pdf</VALUE>
+              </KEY>
+              <KEY name="isexternalfile"><VALUE>0</VALUE>
+              </KEY>
+              <KEY name="repositorytype"><VALUE null="null" />
+              </KEY>
+              <KEY name="userid"><VALUE>2</VALUE>
+              </KEY>
+              <KEY name="author"><VALUE>Admin Nutzer</VALUE>
+              </KEY>
+              <KEY name="license"><VALUE>allrightsreserved</VALUE>
+              </KEY>
+              <KEY name="tags"><MULTIPLE>
+              </MULTIPLE>
+              </KEY>
+            </SINGLE>
+          </MULTIPLE>
+          </KEY>
+          <KEY name="contentsinfo"><SINGLE>
+            <KEY name="filescount"><VALUE>1</VALUE>
+            </KEY>
+            <KEY name="filessize"><VALUE>12097</VALUE>
+            </KEY>
+            <KEY name="lastmodified"><VALUE>1345119510</VALUE>
+            </KEY>
+            <KEY name="mimetypes"><MULTIPLE>
+              <VALUE>application/pdf</VALUE>
+            </MULTIPLE>
+            </KEY>
+            <KEY name="repositorytype"><VALUE />
+            </KEY>
+          </SINGLE>
+          </KEY>
+        </SINGLE>
+        <SINGLE>
+          <KEY name="id"><VALUE>140</VALUE>
+          </KEY>
+          <KEY name="url"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/mod/choice/view.php?id=140</VALUE>
+          </KEY>
+          <KEY name="name"><VALUE>Bildung von Arbeitsgruppen</VALUE>
+          </KEY>
+          <KEY name="instance"><VALUE>13</VALUE>
+          </KEY>
+          <KEY name="description"><VALUE null="null" />
+          </KEY>
+          <KEY name="visible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="uservisible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="availabilityinfo"><VALUE null="null" />
+          </KEY>
+          <KEY name="visibleoncoursepage"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="modicon"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/choice/1574233112/icon</VALUE>
+          </KEY>
+          <KEY name="modname"><VALUE>choice</VALUE>
+          </KEY>
+          <KEY name="modplural"><VALUE>Abstimmungen</VALUE>
+          </KEY>
+          <KEY name="availability"><VALUE null="null" />
+          </KEY>
+          <KEY name="indent"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="onclick"><VALUE />
+          </KEY>
+          <KEY name="afterlink"><VALUE null="null" />
+          </KEY>
+          <KEY name="customdata"><VALUE>""</VALUE>
+          </KEY>
+          <KEY name="completion"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="completiondata"><SINGLE>
+            <KEY name="state"><VALUE null="null" />
+            </KEY>
+            <KEY name="timecompleted"><VALUE null="null" />
+            </KEY>
+            <KEY name="overrideby"><VALUE null="null" />
+            </KEY>
+            <KEY name="valueused"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+          <KEY name="contents"><MULTIPLE>
+          </MULTIPLE>
+          </KEY>
+          <KEY name="contentsinfo"><SINGLE>
+            <KEY name="filescount"><VALUE null="null" />
+            </KEY>
+            <KEY name="filessize"><VALUE null="null" />
+            </KEY>
+            <KEY name="lastmodified"><VALUE null="null" />
+            </KEY>
+            <KEY name="mimetypes"><MULTIPLE>
+            </MULTIPLE>
+            </KEY>
+            <KEY name="repositorytype"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+        </SINGLE>
+        <SINGLE>
+          <KEY name="id"><VALUE>141</VALUE>
+          </KEY>
+          <KEY name="url"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/mod/choice/view.php?id=141</VALUE>
+          </KEY>
+          <KEY name="name"><VALUE>Bildung von Gruppen - präsenzbegleitende Übungen</VALUE>
+          </KEY>
+          <KEY name="instance"><VALUE>14</VALUE>
+          </KEY>
+          <KEY name="description"><VALUE null="null" />
+          </KEY>
+          <KEY name="visible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="uservisible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="availabilityinfo"><VALUE null="null" />
+          </KEY>
+          <KEY name="visibleoncoursepage"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="modicon"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/choice/1574233112/icon</VALUE>
+          </KEY>
+          <KEY name="modname"><VALUE>choice</VALUE>
+          </KEY>
+          <KEY name="modplural"><VALUE>Abstimmungen</VALUE>
+          </KEY>
+          <KEY name="availability"><VALUE null="null" />
+          </KEY>
+          <KEY name="indent"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="onclick"><VALUE />
+          </KEY>
+          <KEY name="afterlink"><VALUE null="null" />
+          </KEY>
+          <KEY name="customdata"><VALUE>""</VALUE>
+          </KEY>
+          <KEY name="completion"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="completiondata"><SINGLE>
+            <KEY name="state"><VALUE null="null" />
+            </KEY>
+            <KEY name="timecompleted"><VALUE null="null" />
+            </KEY>
+            <KEY name="overrideby"><VALUE null="null" />
+            </KEY>
+            <KEY name="valueused"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+          <KEY name="contents"><MULTIPLE>
+          </MULTIPLE>
+          </KEY>
+          <KEY name="contentsinfo"><SINGLE>
+            <KEY name="filescount"><VALUE null="null" />
+            </KEY>
+            <KEY name="filessize"><VALUE null="null" />
+            </KEY>
+            <KEY name="lastmodified"><VALUE null="null" />
+            </KEY>
+            <KEY name="mimetypes"><MULTIPLE>
+            </MULTIPLE>
+            </KEY>
+            <KEY name="repositorytype"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+        </SINGLE>
+      </MULTIPLE>
+      </KEY>
+    </SINGLE>
+    <SINGLE>
+      <KEY name="id"><VALUE>49</VALUE>
+      </KEY>
+      <KEY name="name"><VALUE>Online-Termin 1: Inhalt II und Organisation II</VALUE>
+      </KEY>
+      <KEY name="visible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="summary"><VALUE />
+      </KEY>
+      <KEY name="summaryformat"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="section"><VALUE>2</VALUE>
+      </KEY>
+      <KEY name="hiddenbynumsections"><VALUE>0</VALUE>
+      </KEY>
+      <KEY name="uservisible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="availabilityinfo"><VALUE null="null" />
+      </KEY>
+      <KEY name="modules"><MULTIPLE>
+        <SINGLE>
+          <KEY name="id"><VALUE>143</VALUE>
+          </KEY>
+          <KEY name="url"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/mod/resource/view.php?id=143</VALUE>
+          </KEY>
+          <KEY name="name"><VALUE>Videoeinheit 1</VALUE>
+          </KEY>
+          <KEY name="instance"><VALUE>17</VALUE>
+          </KEY>
+          <KEY name="description"><VALUE null="null" />
+          </KEY>
+          <KEY name="visible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="uservisible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="availabilityinfo"><VALUE null="null" />
+          </KEY>
+          <KEY name="visibleoncoursepage"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="modicon"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/core/1574233112/f/mpeg-24</VALUE>
+          </KEY>
+          <KEY name="modname"><VALUE>resource</VALUE>
+          </KEY>
+          <KEY name="modplural"><VALUE>Dateien</VALUE>
+          </KEY>
+          <KEY name="availability"><VALUE null="null" />
+          </KEY>
+          <KEY name="indent"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="onclick"><VALUE />
+          </KEY>
+          <KEY name="afterlink"><VALUE null="null" />
+          </KEY>
+          <KEY name="customdata"><VALUE>"a:0:{}"</VALUE>
+          </KEY>
+          <KEY name="completion"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="completiondata"><SINGLE>
+            <KEY name="state"><VALUE null="null" />
+            </KEY>
+            <KEY name="timecompleted"><VALUE null="null" />
+            </KEY>
+            <KEY name="overrideby"><VALUE null="null" />
+            </KEY>
+            <KEY name="valueused"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+          <KEY name="contents"><MULTIPLE>
+            <SINGLE>
+              <KEY name="type"><VALUE>file</VALUE>
+              </KEY>
+              <KEY name="filename"><VALUE>blendedlearning.mp4</VALUE>
+              </KEY>
+              <KEY name="filepath"><VALUE>/</VALUE>
+              </KEY>
+              <KEY name="filesize"><VALUE>503815</VALUE>
+              </KEY>
+              <KEY name="fileurl"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/webservice/pluginfile.php/385/mod_resource/content/6/blendedlearning.mp4?forcedownload=1</VALUE>
+              </KEY>
+              <KEY name="content"><VALUE null="null" />
+              </KEY>
+              <KEY name="timecreated"><VALUE>1350030222</VALUE>
+              </KEY>
+              <KEY name="timemodified"><VALUE>1350030242</VALUE>
+              </KEY>
+              <KEY name="sortorder"><VALUE>1</VALUE>
+              </KEY>
+              <KEY name="mimetype"><VALUE>video/mp4</VALUE>
+              </KEY>
+              <KEY name="isexternalfile"><VALUE>0</VALUE>
+              </KEY>
+              <KEY name="repositorytype"><VALUE null="null" />
+              </KEY>
+              <KEY name="userid"><VALUE>2</VALUE>
+              </KEY>
+              <KEY name="author"><VALUE>Admin Nutzer</VALUE>
+              </KEY>
+              <KEY name="license"><VALUE>allrightsreserved</VALUE>
+              </KEY>
+              <KEY name="tags"><MULTIPLE>
+              </MULTIPLE>
+              </KEY>
+            </SINGLE>
+          </MULTIPLE>
+          </KEY>
+          <KEY name="contentsinfo"><SINGLE>
+            <KEY name="filescount"><VALUE>1</VALUE>
+            </KEY>
+            <KEY name="filessize"><VALUE>503815</VALUE>
+            </KEY>
+            <KEY name="lastmodified"><VALUE>1350030242</VALUE>
+            </KEY>
+            <KEY name="mimetypes"><MULTIPLE>
+              <VALUE>video/mp4</VALUE>
+            </MULTIPLE>
+            </KEY>
+            <KEY name="repositorytype"><VALUE />
+            </KEY>
+          </SINGLE>
+          </KEY>
+        </SINGLE>
+        <SINGLE>
+          <KEY name="id"><VALUE>144</VALUE>
+          </KEY>
+          <KEY name="url"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/mod/resource/view.php?id=144</VALUE>
+          </KEY>
+          <KEY name="name"><VALUE>Vorlesungsskript II (Popup-Fenster)</VALUE>
+          </KEY>
+          <KEY name="instance"><VALUE>18</VALUE>
+          </KEY>
+          <KEY name="description"><VALUE null="null" />
+          </KEY>
+          <KEY name="visible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="uservisible"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="availabilityinfo"><VALUE null="null" />
+          </KEY>
+          <KEY name="visibleoncoursepage"><VALUE>1</VALUE>
+          </KEY>
+          <KEY name="modicon"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/core/1574233112/f/pdf-24</VALUE>
+          </KEY>
+          <KEY name="modname"><VALUE>resource</VALUE>
+          </KEY>
+          <KEY name="modplural"><VALUE>Dateien</VALUE>
+          </KEY>
+          <KEY name="availability"><VALUE null="null" />
+          </KEY>
+          <KEY name="indent"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="onclick"><VALUE>window.open('https://moodletest.zim.uni-due.de/moodle_37_test/mod/resource/view.php?id=144&amp;amp;redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false;</VALUE>
+          </KEY>
+          <KEY name="afterlink"><VALUE null="null" />
+          </KEY>
+          <KEY name="customdata"><VALUE>"a:2:{s:10:\"popupwidth\";i:620;s:11:\"popupheight\";i:450;}"</VALUE>
+          </KEY>
+          <KEY name="completion"><VALUE>0</VALUE>
+          </KEY>
+          <KEY name="completiondata"><SINGLE>
+            <KEY name="state"><VALUE null="null" />
+            </KEY>
+            <KEY name="timecompleted"><VALUE null="null" />
+            </KEY>
+            <KEY name="overrideby"><VALUE null="null" />
+            </KEY>
+            <KEY name="valueused"><VALUE null="null" />
+            </KEY>
+          </SINGLE>
+          </KEY>
+          <KEY name="contents"><MULTIPLE>
+            <SINGLE>
+              <KEY name="type"><VALUE>file</VALUE>
+              </KEY>
+              <KEY name="filename"><VALUE>Vorlesungsskript 2.pdf</VALUE>
+              </KEY>
+              <KEY name="filepath"><VALUE>/</VALUE>
+              </KEY>
+              <KEY name="filesize"><VALUE>12097</VALUE>
+              </KEY>
+              <KEY name="fileurl"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/webservice/pluginfile.php/386/mod_resource/content/1/Vorlesungsskript%202.pdf?forcedownload=1</VALUE>
+              </KEY>
+              <KEY name="content"><VALUE null="null" />
+              </KEY>
+              <KEY name="timecreated"><VALUE>1345455921</VALUE>
+              </KEY>
+              <KEY name="timemodified"><VALUE>1345455921</VALUE>
+              </KEY>
+              <KEY name="sortorder"><VALUE>1</VALUE>
+              </KEY>
+              <KEY name="mimetype"><VALUE>application/pdf</VALUE>
+              </KEY>
+              <KEY name="isexternalfile"><VALUE>0</VALUE>
+              </KEY>
+              <KEY name="repositorytype"><VALUE null="null" />
+              </KEY>
+              <KEY name="userid"><VALUE>2</VALUE>
+              </KEY>
+              <KEY name="author"><VALUE>Admin Nutzer</VALUE>
+              </KEY>
+              <KEY name="license"><VALUE>allrightsreserved</VALUE>
+              </KEY>
+              <KEY name="tags"><MULTIPLE>
+              </MULTIPLE>
+              </KEY>
+            </SINGLE>
+          </MULTIPLE>
+          </KEY>
+          <KEY name="contentsinfo"><SINGLE>
+            <KEY name="filescount"><VALUE>1</VALUE>
+            </KEY>
+            <KEY name="filessize"><VALUE>12097</VALUE>
+            </KEY>
+            <KEY name="lastmodified"><VALUE>1345455921</VALUE>
+            </KEY>
+            <KEY name="mimetypes"><MULTIPLE>
+              <VALUE>application/pdf</VALUE>
+            </MULTIPLE>
+            </KEY>
+            <KEY name="repositorytype"><VALUE />
+            </KEY>
+          </SINGLE>
+          </KEY>
+        </SINGLE>
+      </MULTIPLE>
+      </KEY>
+    </SINGLE>
+    <SINGLE>
+      <KEY name="id"><VALUE>50</VALUE>
+      </KEY>
+      <KEY name="name"><VALUE>Thema 3</VALUE>
+      </KEY>
+      <KEY name="visible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="summary"><VALUE />
+      </KEY>
+      <KEY name="summaryformat"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="section"><VALUE>3</VALUE>
+      </KEY>
+      <KEY name="hiddenbynumsections"><VALUE>0</VALUE>
+      </KEY>
+      <KEY name="uservisible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="availabilityinfo"><VALUE null="null" />
+      </KEY>
+      <KEY name="modules"><MULTIPLE>
+      </MULTIPLE>
+      </KEY>
+    </SINGLE>
+    <SINGLE>
+      <KEY name="id"><VALUE>51</VALUE>
+      </KEY>
+      <KEY name="name"><VALUE>Thema 4</VALUE>
+      </KEY>
+      <KEY name="visible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="summary"><VALUE />
+      </KEY>
+      <KEY name="summaryformat"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="section"><VALUE>4</VALUE>
+      </KEY>
+      <KEY name="hiddenbynumsections"><VALUE>0</VALUE>
+      </KEY>
+      <KEY name="uservisible"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="availabilityinfo"><VALUE null="null" />
+      </KEY>
+      <KEY name="modules"><MULTIPLE>
+      </MULTIPLE>
+      </KEY>
+    </SINGLE>
+  </MULTIPLE>
+</RESPONSE>

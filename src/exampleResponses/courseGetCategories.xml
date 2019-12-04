@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RESPONSE>
+<MULTIPLE>
+<SINGLE>
+<KEY name="id"><VALUE>1</VALUE>
+</KEY>
+<KEY name="name"><VALUE>Miscellaneous</VALUE>
+</KEY>
+<KEY name="idnumber"><VALUE null="null"/>
+</KEY>
+<KEY name="description"><VALUE></VALUE>
+</KEY>
+<KEY name="descriptionformat"><VALUE>1</VALUE>
+</KEY>
+<KEY name="parent"><VALUE>0</VALUE>
+</KEY>
+<KEY name="sortorder"><VALUE>10000</VALUE>
+</KEY>
+<KEY name="coursecount"><VALUE>5</VALUE>
+</KEY>
+<KEY name="visible"><VALUE null="null"/>
+</KEY>
+<KEY name="visibleold"><VALUE null="null"/>
+</KEY>
+<KEY name="timemodified"><VALUE null="null"/>
+</KEY>
+<KEY name="depth"><VALUE>1</VALUE>
+</KEY>
+<KEY name="path"><VALUE>/1</VALUE>
+</KEY>
+<KEY name="theme"><VALUE null="null"/>
+</KEY>
+</SINGLE>
+<SINGLE>
+<KEY name="id"><VALUE>2</VALUE>
+</KEY>
+<KEY name="name"><VALUE>Testkategorie</VALUE>
+</KEY>
+<KEY name="idnumber"><VALUE null="null"/>
+</KEY>
+<KEY name="description"><VALUE></VALUE>
+</KEY>
+<KEY name="descriptionformat"><VALUE>1</VALUE>
+</KEY>
+<KEY name="parent"><VALUE>1</VALUE>
+</KEY>
+<KEY name="sortorder"><VALUE>20000</VALUE>
+</KEY>
+<KEY name="coursecount"><VALUE>2</VALUE>
+</KEY>
+<KEY name="visible"><VALUE null="null"/>
+</KEY>
+<KEY name="visibleold"><VALUE null="null"/>
+</KEY>
+<KEY name="timemodified"><VALUE null="null"/>
+</KEY>
+<KEY name="depth"><VALUE>2</VALUE>
+</KEY>
+<KEY name="path"><VALUE>/1/2</VALUE>
+</KEY>
+<KEY name="theme"><VALUE null="null"/>
+</KEY>
+</SINGLE>
+</MULTIPLE>
+</RESPONSE>

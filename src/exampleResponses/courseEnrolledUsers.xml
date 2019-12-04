@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RESPONSE>
+<MULTIPLE>
+<SINGLE>
+<KEY name="id"><VALUE>20</VALUE>
+</KEY>
+<KEY name="username"><VALUE null="null"/>
+</KEY>
+<KEY name="firstname"><VALUE null="null"/>
+</KEY>
+<KEY name="lastname"><VALUE null="null"/>
+</KEY>
+<KEY name="fullname"><VALUE>Sebastian Hofmann</VALUE>
+</KEY>
+<KEY name="email"><VALUE null="null"/>
+</KEY>
+<KEY name="address"><VALUE null="null"/>
+</KEY>
+<KEY name="phone1"><VALUE null="null"/>
+</KEY>
+<KEY name="phone2"><VALUE null="null"/>
+</KEY>
+<KEY name="icq"><VALUE null="null"/>
+</KEY>
+<KEY name="skype"><VALUE null="null"/>
+</KEY>
+<KEY name="yahoo"><VALUE null="null"/>
+</KEY>
+<KEY name="aim"><VALUE null="null"/>
+</KEY>
+<KEY name="msn"><VALUE null="null"/>
+</KEY>
+<KEY name="department"><VALUE null="null"/>
+</KEY>
+<KEY name="institution"><VALUE null="null"/>
+</KEY>
+<KEY name="idnumber"><VALUE null="null"/>
+</KEY>
+<KEY name="interests"><VALUE null="null"/>
+</KEY>
+<KEY name="firstaccess"><VALUE>0</VALUE>
+</KEY>
+<KEY name="lastaccess"><VALUE>0</VALUE>
+</KEY>
+<KEY name="lastcourseaccess"><VALUE>0</VALUE>
+</KEY>
+<KEY name="description"><VALUE></VALUE>
+</KEY>
+<KEY name="descriptionformat"><VALUE>1</VALUE>
+</KEY>
+<KEY name="city"><VALUE null="null"/>
+</KEY>
+<KEY name="url"><VALUE null="null"/>
+</KEY>
+<KEY name="country"><VALUE null="null"/>
+</KEY>
+<KEY name="profileimageurlsmall"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/core/1574233112/u/f2</VALUE>
+</KEY>
+<KEY name="profileimageurl"><VALUE>https://moodletest.zim.uni-due.de/moodle_37_test/theme/image.php/boost/core/1574233112/u/f1</VALUE>
+</KEY>
+<KEY name="customfields"><MULTIPLE>
+</MULTIPLE>
+</KEY>
+<KEY name="groups"><MULTIPLE>
+</MULTIPLE>
+</KEY>
+<KEY name="roles"><MULTIPLE>
+<SINGLE>
+<KEY name="roleid"><VALUE>3</VALUE>
+</KEY>
+<KEY name="name"><VALUE></VALUE>
+</KEY>
+<KEY name="shortname"><VALUE>editingteacher</VALUE>
+</KEY>
+<KEY name="sortorder"><VALUE>0</VALUE>
+</KEY>
+</SINGLE>
+</MULTIPLE>
+</KEY>
+<KEY name="preferences"><MULTIPLE>
+</MULTIPLE>
+</KEY>
+<KEY name="enrolledcourses"><MULTIPLE>
+<SINGLE>
+<KEY name="id"><VALUE>14</VALUE>
+</KEY>
+<KEY name="fullname"><VALUE>Testkurs OER Webservice</VALUE>
+</KEY>
+<KEY name="shortname"><VALUE>Testkurs OER Webservice</VALUE>
+</KEY>
+</SINGLE>
+</MULTIPLE>
+</KEY>
+</SINGLE>
+</MULTIPLE>
+</RESPONSE>

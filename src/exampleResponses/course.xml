@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESPONSE>
+  <MULTIPLE>
+    <SINGLE>
+      <KEY name="id"><VALUE>14</VALUE>
+      </KEY>
+      <KEY name="shortname"><VALUE>Testkurs OER Webservice</VALUE>
+      </KEY>
+      <KEY name="categoryid"><VALUE>2</VALUE>
+      </KEY>
+      <KEY name="categorysortorder"><VALUE null="null" />
+      </KEY>
+      <KEY name="fullname"><VALUE>Testkurs OER Webservice</VALUE>
+      </KEY>
+      <KEY name="displayname"><VALUE>Testkurs OER Webservice</VALUE>
+      </KEY>
+      <KEY name="idnumber"><VALUE null="null" />
+      </KEY>
+      <KEY name="summary">
+        <VALUE><p>Eine beschreibung</p></VALUE>
+      </KEY>
+      <KEY name="summaryformat"><VALUE>1</VALUE>
+      </KEY>
+      <KEY name="format"><VALUE>topics</VALUE>
+      </KEY>
+      <KEY name="showgrades"><VALUE null="null" />
+      </KEY>
+      <KEY name="newsitems"><VALUE null="null" />
+      </KEY>
+      <KEY name="startdate"><VALUE>1568325600</VALUE>
+      </KEY>
+      <KEY name="enddate"><VALUE>0</VALUE>
+      </KEY>
+      <KEY name="numsections"><VALUE null="null" />
+      </KEY>
+      <KEY name="maxbytes"><VALUE null="null" />
+      </KEY>
+      <KEY name="showreports"><VALUE null="null" />
+      </KEY>
+      <KEY name="visible"><VALUE null="null" />
+      </KEY>
+      <KEY name="hiddensections"><VALUE null="null" />
+      </KEY>
+      <KEY name="groupmode"><VALUE null="null" />
+      </KEY>
+      <KEY name="groupmodeforce"><VALUE null="null" />
+      </KEY>
+      <KEY name="defaultgroupingid"><VALUE null="null" />
+      </KEY>
+      <KEY name="timecreated"><VALUE null="null" />
+      </KEY>
+      <KEY name="timemodified"><VALUE null="null" />
+      </KEY>
+      <KEY name="enablecompletion"><VALUE null="null" />
+      </KEY>
+      <KEY name="completionnotify"><VALUE null="null" />
+      </KEY>
+      <KEY name="lang"><VALUE null="null" />
+      </KEY>
+      <KEY name="forcetheme"><VALUE null="null" />
+      </KEY>
+      <KEY name="courseformatoptions"><MULTIPLE>
+      </MULTIPLE>
+      </KEY>
+      <KEY name="customfields"><MULTIPLE>
+      </MULTIPLE>
+      </KEY>
+    </SINGLE>
+  </MULTIPLE>
+</RESPONSE>
