@@ -1,4 +1,4 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink"
                 version="3.0">
   <xsl:param name="WebApplicationBaseURL"/>
 
@@ -17,26 +17,7 @@
           <xsl:call-template name="userMissing"/>
         </xsl:when>
         <xsl:when test="@method='importResult'">
-
-          <div class="card">
-            <div class="card-header">
-              <h2 class="card-title">
-                <xsl:value-of select="$translations/translations/translation[@key='mir.moodle.import.success']/text()"/>
-              </h2>
-            </div>
-            <div class="card-body">
-              <p>
-                <xsl:value-of select="$translations/translations/translation[@key='mir.moodle.import.message']/text()"/>
-              </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <xsl:for-each select="object">
-                <li class="list-group-item">
-                  <a href="{$WebApplicationBaseURL}receive/{@id}"><xsl:value-of select="@id"/></a>
-                </li>
-              </xsl:for-each>
-            </ul>
-          </div>
+          <xsl:call-template name="importResult" />
         </xsl:when>
       </xsl:choose>
     </site>
@@ -170,6 +151,47 @@
           <xsl:value-of select="KEY[@name='filename']/VALUE/text()"/>
         </label>
       </div>
+    </div>
+  </xsl:template>
+
+
+  <xsl:template name="importResult">
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">
+          <xsl:value-of select="$translations/translations/translation[@key='mir.moodle.import.success']/text()"/>
+        </h2>
+      </div>
+      <div class="card-body">
+        <p>
+          <xsl:value-of select="$translations/translations/translation[@key='mir.moodle.import.message']/text()"/>
+        </p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <xsl:for-each select="object">
+          <xsl:variable name="mcrObject" select="document(concat('mcrobject:', @id))" />
+          <li class="list-group-item">
+            <xsl:variable name="modsTitleInfoElement" select="$mcrObject/mycoreobject/metadata/def.modsContainer/modsContainer/mods:mods/mods:titleInfo" />
+            <xsl:variable name="hasTitle" select="count($modsTitleInfoElement/mods:title) &gt;0" />
+            <xsl:variable name="hasSubTitle" select="count($modsTitleInfoElement/mods:subTitle) &gt;0" />
+            <xsl:variable name="titleString">
+              <xsl:choose>
+                <xsl:when test="$hasTitle and $hasSubTitle">
+                  <xsl:value-of select="$modsTitleInfoElement/mods:title" />: <xsl:value-of select="$modsTitleInfoElement/mods:subTitle" />
+                </xsl:when>
+                <xsl:when test="$hasTitle">
+                  <xsl:value-of select="$modsTitleInfoElement/mods:title" />
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:value-of select="@id" />
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:variable>
+
+            <a target="_blank" href="{$WebApplicationBaseURL}receive/{@id}"><xsl:value-of select="$titleString"/><span class="ml-1 fas fa-external-link-alt"> </span></a>
+          </li>
+        </xsl:for-each>
+      </ul>
     </div>
   </xsl:template>
 
