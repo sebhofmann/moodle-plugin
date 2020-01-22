@@ -84,7 +84,10 @@
           <xsl:value-of
               select="$translations/translations/translation[@key='mir.moodle.import.course.description']/text()"/>
         </p>
-        <form method="post" action="{$WebApplicationBaseURL}servlets/MoodleServlet">
+        <p class="d-none text-danger fileNotLinkedValidation">
+          <xsl:value-of select="$translations/translations/translation[@key='mir.moodle.import.course.validation.filesNoParent']/text()" />
+        </p>
+        <form method="post" class="moodleRoot" action="{$WebApplicationBaseURL}servlets/MoodleServlet">
           <input type="hidden" name="importID" value="{$courseID}"/>
           <xsl:variable name="courseTitle" select="RESPONSE/MULTIPLE/SINGLE/KEY[@name='fullname']/VALUE/text()"/>
 
@@ -100,10 +103,11 @@
             <xsl:call-template name="printModule"/>
           </xsl:for-each>
 
-          <button type="submit" class="btn btn-primary float-right">
+          <button type="submit" class="btn btn-primary float-right" onclick="return validateContents()">
             <xsl:value-of select="$translations/translations/translation[@key='mir.moodle.import.submit']/text()"/>
           </button>
         </form>
+        <script src="{$WebApplicationBaseURL}moodle/js/select-contents-restriction.js"> </script>
       </div>
     </div>
 
@@ -147,6 +151,16 @@
       <div class="form-check">
         <xsl:variable name="fileID" select="KEY[@name='fileurl']/VALUE/text()"/>
         <input class="form-check-input" type="checkbox" name="file" value="{$fileID}" checked="true"/>
+        <xsl:variable name="parents">
+          <xsl:for-each select="./ancestor::SINGLE[count(KEY[@name='id'])&gt;0]">
+            <xsl:if test="position()&gt;1">
+              <xsl:text>,</xsl:text>
+            </xsl:if>
+            <xsl:value-of select="KEY[@name='id']/VALUE/text()" />
+          </xsl:for-each>
+        </xsl:variable>
+        <input name="parent" type="hidden" value="{$fileID}$$${$parents}" />
+
         <label class="form-check-label" for="module_">
           <xsl:value-of select="KEY[@name='filename']/VALUE/text()"/>
         </label>
