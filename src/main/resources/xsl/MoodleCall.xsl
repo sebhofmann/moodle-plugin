@@ -35,6 +35,15 @@
         <p>
           <xsl:value-of select="$translations/translations/translation[@key='mir.moodle.user.missing.message']/text()"/>
         </p>
+        <form method="GET" action="{$WebApplicationBaseURL}servlets/MoodleServlet">
+          <p>Geben sie die NutzerID des Moodle-Nutzers ein!</p>
+          <img src="{$WebApplicationBaseURL}moodle/img/profile.png" /><br/>
+          <span>Aus der Browserleiste kopieren: </span>
+          <code>https://moodletest.zim.uni-due.de/moodle_37_test/user/profile.php?id=<b style="color:red;">20</b></code><br/>
+          <input type="hidden" name="action" value="userEdit" />
+          <input type="number" name="userID" />
+          <input type="submit" />
+        </form>
       </div>
     </div>
   </xsl:template>

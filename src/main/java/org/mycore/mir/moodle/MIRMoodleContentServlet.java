@@ -54,7 +54,11 @@ import org.mycore.datamodel.niofs.MCRPath;
 import org.mycore.frontend.servlets.MCRContentServlet;
 import org.mycore.mods.MCRMODSWrapper;
 import org.mycore.tools.MCRTopologicalSort;
+import org.mycore.user2.MCRUser;
+import org.mycore.user2.MCRUserManager;
 import org.xml.sax.SAXException;
+
+import static org.mycore.mir.moodle.MIRMoodleUtils.MOOODLE_USER_ID_ATTRIBUTE;
 
 public class MIRMoodleContentServlet extends MCRContentServlet {
 
@@ -143,18 +147,17 @@ public class MIRMoodleContentServlet extends MCRContentServlet {
                     throw new MCRException("The Method " + httpServletRequest.getMethod() + " is not implemented!");
                 }
             } else {
-                final MIRMoodleCaller moodleCaller = new MIRMoodleCaller(MIRMoodleUtils.getMoodleURL(),
-                    MIRMoodleUtils.getMoodleToken());
-                try {
-                    Document moodleCall = moodleCaller.resolveUsersCourses(Long.parseLong(userId));
-                    final Element responseElement = moodleCall.getRootElement().detach();
-                    content = new Element(MOODLE_CALL_ELEMENT_NAME);
-                    content.setAttribute(MOODLE_CALL_METHOD_ATTRIBUTE, "core_enrol_get_users_courses");
-                    content.addContent(responseElement);
-                } catch (IOException | JDOMException e) {
-                    throw new MCRException("Error while receiving courses of user " + userId, e);
-                }
+                content = listImportableCourses(userId);
             }
+        } else if ("GET".equals(httpServletRequest.getMethod()) && "userEdit"
+            .equals(httpServletRequest.getParameter("action"))) {
+            final String userID = httpServletRequest.getParameter("userID");
+            final MCRUser user = MCRUserManager.getCurrentUser();
+            final Map<String, String> attributes = user.getAttributes();
+            attributes.put(MOOODLE_USER_ID_ATTRIBUTE, userID);
+            user.setAttributes(attributes);
+            MCRUserManager.updateUser(user);
+            content = listImportableCourses(userID);
         } else {
             content = new Element(MOODLE_CALL_ELEMENT_NAME);
             content.setAttribute(MOODLE_CALL_METHOD_ATTRIBUTE, "no_user");
@@ -166,6 +169,22 @@ public class MIRMoodleContentServlet extends MCRContentServlet {
         } catch (IOException | TransformerException | SAXException e) {
             throw new MCRException(e);
         }
+    }
+
+    private Element listImportableCourses(String userId) {
+        Element content;
+        final MIRMoodleCaller moodleCaller = new MIRMoodleCaller(MIRMoodleUtils.getMoodleURL(),
+            MIRMoodleUtils.getMoodleToken());
+        try {
+            Document moodleCall = moodleCaller.resolveUsersCourses(Long.parseLong(userId));
+            final Element responseElement = moodleCall.getRootElement().detach();
+            content = new Element(MOODLE_CALL_ELEMENT_NAME);
+            content.setAttribute(MOODLE_CALL_METHOD_ATTRIBUTE, "core_enrol_get_users_courses");
+            content.addContent(responseElement);
+        } catch (IOException | JDOMException e) {
+            throw new MCRException("Error while receiving courses of user " + userId, e);
+        }
+        return content;
     }
 
     private Element importSelectedContent(HttpServletRequest httpServletRequest, String importID)
