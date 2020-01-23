@@ -11,6 +11,8 @@ function validateContents() {
     var files = formData.getAll("file");
     var parents = formData.getAll("parent");
 
+    var cleanFiles = files.map(cleanURLToID);
+
     if (courseID != null) {
         // if the course is selected every file will at least go to it
         return true;
@@ -24,7 +26,9 @@ function validateContents() {
         var parts = parents[i].split("$$$");
         cleanID = cleanURLToID(parts[0]);
         fileParentsMap[cleanID] = parts[1].split(",");
-        fileParentPresentMap[cleanID] = false;
+        if(cleanFiles.indexOf(cleanID)!==-1){
+            fileParentPresentMap[cleanID] = false;
+        }
     }
 
     for(var j in files) {

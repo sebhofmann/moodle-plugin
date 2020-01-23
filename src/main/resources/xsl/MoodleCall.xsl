@@ -54,7 +54,14 @@
         </p>
       </div>
       <ul class="list-group list-group-flush">
-        <!-- TODO: filter existing courses -->
+        <!-- TODO: filter existing courses
+        <xsl:variable name="servflagField" select="'servflag.type.IMPORTED_MOODLE_COURSE'" />
+        <xsl:variable name="query" select="concat('q=', $servflagField, ':(', string-join(RESPONSE/MULTIPLE/SINGLE/KEY[@name='id']/VALUE, ' or '), ')', '&amp;rows=99999&amp;fl=id,', $servflagField)" />
+        <xsl:variable name="result" select="document(concat('solr:', $query))" />
+        <xsl:variable name="presentIDList" select="$result/response/result/doc/str[@name=$servflagField]"/>
+        <xsl:apply-templates select="RESPONSE/MULTIPLE/SINGLE[count(index-of($presentIDList, KEY[@name='id']/VALUE/text()))=0]"/>
+        -->
+
         <xsl:apply-templates select="RESPONSE/MULTIPLE/SINGLE"/>
       </ul>
     </div>

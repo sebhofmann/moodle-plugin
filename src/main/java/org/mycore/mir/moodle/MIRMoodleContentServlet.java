@@ -75,6 +75,8 @@ public class MIRMoodleContentServlet extends MCRContentServlet {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
+    public static final String IMPORTED_MOODLE_COURSE_FLAG = "IMPORTED_MOODLE_COURSE";
+
     public static MCRDerivate createDerivate(String documentID)
         throws MCRPersistenceException, IOException, MCRAccessException {
         final String projectId = MCRObjectID.getInstance(documentID).getProjectId();
@@ -259,7 +261,7 @@ public class MIRMoodleContentServlet extends MCRContentServlet {
             idMCRIDMap.put(id, newObjectId.toString());
             final MCRObject mcrObject = MCRMODSWrapper.wrapMODSDocument(mods, newObjectId.getProjectId());
             mcrObject.setId(newObjectId);
-
+            mcrObject.getService().addFlag(IMPORTED_MOODLE_COURSE_FLAG, importID);
             if (hierarchyMap.containsKey(id)) {
                 final String parent = hierarchyMap.get(id);
                 final String objectID = idMCRIDMap.get(parent);

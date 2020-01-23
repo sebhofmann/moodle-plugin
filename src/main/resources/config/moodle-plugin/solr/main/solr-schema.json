@@ -1,0 +1,11 @@
+[
+  {
+    "add-field": {
+      "name": "servflag.type.IMPORTED_MOODLE_COURSE",
+      "type": "string",
+      "indexed": true,
+      "stored": true,
+      "multiValued": false
+    }
+  }
+]
