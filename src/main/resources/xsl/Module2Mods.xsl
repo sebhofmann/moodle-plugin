@@ -77,9 +77,7 @@
   </xsl:template>-->
 
   <xsl:template match="KEY[@name='summary' and count(VALUE/node())&gt;0]">
-    <mods:abstract xml:lang="de" xlink:type="simple">
-      <xsl:value-of select="VALUE/text()"/>
-    </mods:abstract>
+    <xsl:copy-of select="document(concat('htmlAbstract:', VALUE/text()))" />
   </xsl:template>
 
 </xsl:stylesheet>
